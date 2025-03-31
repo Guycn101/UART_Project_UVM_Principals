@@ -2,5 +2,3 @@
 Designed and verified a UART system using Verilog for RTL implementation of transmitter and receiver modules.
 Developed a SystemVerilog testbench leveraging UVM principles, including generator, driver, monitor, and scoreboard components.
 Created a reusable verification environment with mailboxes and interfaces for robust transaction-based testing.
-
-#Missing the Integration and the verification environment for the RX and TX combined, will be added later.
