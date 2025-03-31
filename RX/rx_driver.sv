@@ -5,7 +5,7 @@
 class rx_driver  #(parameter SIZE = 8, // size of data
    parameter BAUD_RATE = 115200, 
    parameter CLK_FREQ = 1000000,
-   parameter BAUD_COUNT = (CLK_FREQ/BAUD_RATE));
+   parameter BAUD_COUNT = 9);
 	virtual rx_if.mp_drv rx_if_drv;
 	mailbox gen2drv;
 	mailbox drv2scb;
